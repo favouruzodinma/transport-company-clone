@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    /* padding-top: 25px; */
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./transport.jpeg);
+    justify-content: center;
+    display: flex;
+    height: 120vh;
+    background-size: cover;
+}
+.center{
+    width: 80vw;
+}
+header{
+    align-items: center;
+    width: 70vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+header div p {
+    color: #7f8489;
+}
+nav{
+    display: flex;
+    width: 30vw;
+    justify-content:space-between;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: #e4d7d7;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: orangered;
+ }
+ .row{
+    display: flex;
+    justify-content: center;
+    color: white;
+ }
+ .colum1{
+    width: 50%;
+    margin: 100px auto;
+    
+ }
+ .ferm{
+    display: flex;
+    flex-direction: column;
+ }
+ .container{
+    padding: 0 20px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 480px;
+    margin: 100px auto;
+    border-radius: 10px;
+ }
+ .ferm input{
+    height: 30px;
+    border: solid 1px #ddd;
+    padding-left: 5px;
+ }
+ .ferm label{
+    font-weight: 700;
+ }
+ .container h3, label{
+    margin-top: 10px;
+    height: 30px;
+ }
+ .ferm button{
+    margin-top: 20px;
+    height: 45px;
+    color: white;
+    background-color: orangered;
+    border: none;
+ }
+.colum1 h1{
+    font-size: xx-large;
+    line-height: 50px;
+    font-family: arial;
+}
+.colos{
+    display: flex;
+}
+ .colos .round{
+    margin-top: 10px;
+    background-color: orangered;
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+    box-sizing: border-box;
+    border: dashed 1px white;
+    display: inline-block;
+}
+.colos span{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 30vh;
+}
+.form input{
+    border: 1px solid #ddd;
+    width: 15%;
+    height: 30px;
+    /* margin: 20px; */
+}
+.form button{
+    /* margin-top: 20px; */
+    height: 35px;
+    width: 20%;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.traingle{
+    margin-top: 20px;
+    margin-left: 22px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid white;
+}
+
+
+
+
+
+/* .form input{
+    width: 100%;
+    
+}  */
+.double{
+    display: flex;
+    /* width: inherit; */
+    align-items: center;
+    /* width: 50%; */
+    justify-content: space-between;
+}
+.form button{
+    margin-top: 30px;
+    width: 120px;
+}
+.form select{
+    width: 180px;
+    height: 30px;
+    margin:0 20px;
+    border: 1px solid #ddd;
+}
+.formdiv div{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.double2{
+    display: flex;
+    /* width: inherit; */
+    align-items: center;
+    /* width: 50%; */
+    justify-content: space-between;
+}
+.ferm .inp{
+    width: 150px;
+
+}
